@@ -2,19 +2,11 @@
 #include <math.h>
 
 int main() {
-    int x, y, w, z;
-    float arit, harm, geom, pond;
+    float x, y, w, z, arit, harm, geom, pond;
 
     //Valores são inseridos aqui
-    printf("Digite o valor de X: ");
-    scanf("%d", &x);
-    printf("\nDigite o valor de Y: ");
-    scanf("%d", &y);
-    printf("\nDigite o valor de W: ");
-    scanf("%d", &w);
-    printf("\nDigite o valor de Z: ");
-    scanf("%d", &z);
-    //
+    printf("Digite os valores de X, Y, W e Z: ");
+    scanf("%f%f%f%f", &x, &y, &w, &z);
 
     arit = (x+y+w+z) / 4.0;
     harm = 4.0 / ( 1.0/x + 1.0/y + 1.0/w + 1.0/z );
