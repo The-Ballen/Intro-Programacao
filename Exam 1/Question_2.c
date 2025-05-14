@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    float diariaNormal, diariaPromo, arrecNormal, arrecPromo, diferença;
+    float diariaNormal, diariaPromo, arrecNormal, arrecPromo, diferenca;
 
     printf("Digite o valor da diária normal: ");
     scanf("%f", &diariaNormal);
@@ -9,12 +9,12 @@ int main() {
     diariaPromo = diariaNormal * 0.75;
     arrecPromo = diariaPromo * (75*0.8);
     arrecNormal = diariaNormal * (75*0.5);
-    diferença = diariaPromo - diariaNormal;
+    diferenca = diariaPromo - diariaNormal;
 
     printf("\nDiária Promocional: %f", diariaPromo);
     printf("\nArrecadação com 80%% de ocupação e diária promocional: %f", arrecPromo);
     printf("\nArrecadação com 50%% de ocupação e diária normal: %f", arrecNormal);
-    printf("\nDiferença: %f\n", diferença);
+    printf("\nDiferenca: %f\n", diferenca);
 
     return 0;
 }
