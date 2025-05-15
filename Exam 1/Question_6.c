@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int n = 10;
+    int n;
+    scanf("%d", &n);
+    
     int array[n];
 
     // Desloca o array pra direita
