@@ -3,7 +3,7 @@
 int main() {
     float diariaNormal, diariaPromo, arrecNormal, arrecPromo, diferenca;
 
-    printf("Digite o valor da diária normal: ");
+    //printf("Digite a diária normal: ");
     scanf("%f", &diariaNormal);
 
     diariaPromo = diariaNormal * 0.75;

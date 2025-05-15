@@ -3,10 +3,8 @@
 int main() {
     float larg, comp, alt = 2.8, areaFinal, litros, latas;
 
-    printf("Digite o valor da Largura: ");
-    scanf("%f", &larg);
-    printf("\nDigite o valor do Comprimento: ");
-    scanf("%f", &comp);
+    //printf("Digite a largura e comprimento: ");
+    scanf("%f%f", &larg, &comp);
 
     areaFinal = ( 2.0*alt*(larg + comp) ) - (0.8*2.1);
 

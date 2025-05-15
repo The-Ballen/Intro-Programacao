@@ -5,13 +5,13 @@ int main() {
     float salario = 0.0, salGre = 0.0, salInt = 0.0;
 
     while (continuar) {
-        printf("\nInforme o seu clube (1-Grêmio, 2-Internacional, 3-Outros): ");
+        printf("\nClube (1-Grêmio, 2-Internacional, 3-Outros): ");
         scanf("%d", &clube);
 
-        printf("\nInforme o seu salário: ");
+        printf("\nSalário: ");
         scanf("%f", &salario);
 
-        printf("\nInforme a sua cidade natal (0-Porto Alegre, 1-Outras): ");
+        printf("\nCidade (0-Porto Alegre, 1-Outras): ");
         scanf("%d", &cidade);
 
         entrevistados++;
@@ -36,7 +36,7 @@ int main() {
         salInt /= (float) contInt;
 
     printf("\nTorcedores:\ngrêmio - %d\nInternacional - %d", contGre, contInt);
-    printf("\nMedia salarial dos torcedores:\ngrêmio: %.2f\nInternacional: %.2f", salGre, salInt);
+    printf("\nMedia salarial:\ngrêmio: %.2f\nInternacional: %.2f", salGre, salInt);
     printf("\nNascidos em Porto Alegre que não torcem para nenhum dos dois times: %d", neutros);
     printf("\nEntrevistados: %d", entrevistados);
 

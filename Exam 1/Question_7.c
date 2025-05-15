@@ -3,16 +3,15 @@
 int main() {
     int m, n;
 
-    printf("Digite o número de linhas da matriz esparsa: ");
-    scanf("%d", &m);
-    printf("\nDigite o número de colunas da matriz esparsa: ");
-    scanf("%d", &n);
+    //printf("Digite o número de linhas e colunas da matriz esparsa: ");
+    scanf("%d%d", &m, &n);
+
     int matriz[m][n], matrizCond[m*n][3], currentElement = 0;;
 
     // Lendo elementos da matriz esparsa
     for (int i = 0; i < m; ++i) {
         for (int j = 0; j < n; ++j){
-            printf("\nDigite o valor do elemento %dx%d: ", i, j);
+            //printf("\nDigite o valor do elemento %dx%d: ", i, j);
             scanf("%d", &matriz[i][j]);
             if (matriz[i][j] != 0) {
                 matrizCond[currentElement][0] = matriz[i][j];

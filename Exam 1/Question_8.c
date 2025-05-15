@@ -5,7 +5,7 @@ int main() {
 
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 5; j++) {
-            printf("\nDigite o valor do elemento %dx%d: ", i, j);
+            //printf("\nDigite o valor do elemento %dx%d: ", i, j);
             scanf("%d", &array[i][j]);
             if ((array[i][j] > biggest) || ((i==0) && (j==0))) {
                 biggest = array[i][j];

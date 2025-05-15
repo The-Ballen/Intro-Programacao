@@ -3,12 +3,8 @@
 int main() {
     int a, b, c, temp, min, med, max;
 
-    printf("Digite o primeiro valor: ");
-    scanf("%d", &a);
-    printf("\nDigite o segundo valor: ");
-    scanf("%d", &b);
-    printf("\nDigite o terceiro valor: ");
-    scanf("%d", &c);
+    //printf("Digite o primeiro valor: ");
+    scanf("%d%d%d", &a, &b, &c);
 
     // Algoritmo 1
     

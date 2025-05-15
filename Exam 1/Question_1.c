@@ -5,7 +5,7 @@ int main() {
     float x, y, w, z, arit, harm, geom, pond;
 
     //Valores são inseridos aqui
-    printf("Digite os valores de X, Y, W e Z: ");
+    //printf("Digite os valores de X, Y, W e Z: ");
     scanf("%f%f%f%f", &x, &y, &w, &z);
 
     arit = (x+y+w+z) / 4.0;
