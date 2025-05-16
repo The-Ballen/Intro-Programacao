@@ -9,7 +9,7 @@ int main() {
     diariaPromo = diariaNormal * 0.75;
     arrecPromo = diariaPromo * (75*0.8);
     arrecNormal = diariaNormal * (75*0.5);
-    diferenca = diariaPromo - diariaNormal;
+    diferenca = arrecPromo - arrecNormal;
 
     printf("\nDiária Promocional: %f", diariaPromo);
     printf("\nArrecadação com 80%% de ocupação e diária promocional: %f", arrecPromo);
