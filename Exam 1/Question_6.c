@@ -7,7 +7,7 @@ int main() {
     int array[n];
 
     // Desloca o array pra direita
-    for (int i = (n-1); i >= 0; --i) {
+    for (int i = (n-2); i >= 0; --i) {
         array[i+1] = array[i];
     }
     array[0] = 0;
