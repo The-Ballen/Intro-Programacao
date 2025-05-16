@@ -6,7 +6,7 @@ int main() {
     //printf("Digite o número de linhas e colunas da matriz esparsa: ");
     scanf("%d%d", &m, &n);
 
-    int matriz[m][n], matrizCond[m*n][3], currentElement = 0;;
+    int matriz[m][n], matrizCond[m*n][3], currentElement = 0;
 
     // Lendo elementos da matriz esparsa
     for (int i = 0; i < m; ++i) {
